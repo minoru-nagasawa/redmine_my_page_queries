@@ -31,7 +31,7 @@ module MyPageQueries::Patches::MyHelperPatch
       options << [label, block] unless block.blank?
     end
     my_page_blocks  = grouped_options_for_select(l(:label_my_page) => options + [[l(:field_text), "#{MyPageQueries::Patches::MyHelperPatch.detect_new_text_block}"]])
-    my_query_blocks = grouped_options_for_select(my_queries(user)) 
+    my_query_blocks = grouped_options_for_select(my_queries(user)) +
                       grouped_options_for_select(queries_from_my_projects(user)) +
                       grouped_options_for_select(queries_from_public_projects(user))
     select_tag('block', content_tag('option') + my_page_blocks + my_query_blocks, :id => "block-select", :onchange => "$('#block-form').submit();")
