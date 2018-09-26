@@ -1,4 +1,4 @@
-# Redmine My Page Queries
+# Redmine My Page Queries For Redmine 3.4.x
 
 [![Build Status](https://travis-ci.org/minoru-nagasawa/redmine_my_page_queries.svg?branch=master)](https://travis-ci.org/minoru-nagasawa/redmine_my_page_queries)
 [![Code Climate](https://codeclimate.com/github/minoru-nagasawa/redmine_my_page_queries.png)](https://codeclimate.com/github/minoru-nagasawa/redmine_my_page_queries)
