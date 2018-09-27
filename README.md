@@ -30,7 +30,7 @@ Before version 3.3 is here. (https://github.com/Restream/redmine_my_page_queries
             
       Copy the plugin from GitHub using the following commands:
       
-            git clone https://github.com/Restream/redmine_my_page_queries.git plugins/redmine_my_page_queries           
+            git clone https://github.com/minoru-nagasawa/redmine_my_page_queries.git plugins/redmine_my_page_queries  
       
 2. Update the Gemfile.lock file by running the following commands:  
 
